@@ -2,6 +2,10 @@
 
 The purpose of this repo is to practice creating resource in AWS with Terraform
 
+## Starting Point
+
+- Install [pre-commit](https://pre-commit.com/#install) to use pre-commit hooks in this repo.
+
 ## TO-DO
 
 - Document repo design decisions
@@ -10,6 +14,14 @@ The purpose of this repo is to practice creating resource in AWS with Terraform
 - Create a VPC Module
 - Add Testing
 - Terragrunt for DRY?
+- Pre-commits
+  - tflint
+  - tfdocs
+  - terraform-fmt
+- Github Actions
+  - [Infracost](https://github.com/infracost/infracost)
+- Tests
+  - Try terratest to build tests for each module.
 
 ## Desing Decisions
 
