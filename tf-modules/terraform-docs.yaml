@@ -16,7 +16,7 @@ sections:
 content: ""
 
 output:
-  file: "README.md"
+  file: "DOCS.md"
   mode: inject
   template: |-
     <!-- BEGIN_TF_DOCS -->
