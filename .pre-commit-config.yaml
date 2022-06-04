@@ -6,6 +6,10 @@ repos:
       - id: terraform_fmt
         args:
           - --args=-recursive
+  # terraform-docs don't work quite well when is run recursively using pre-commit hooks
+  # https://github.com/terraform-docs/terraform-docs/issues/613
+  # Workaround: Run the command below instead:
+  # for directory in modules/*/ ; do terraform-docs markdown table --output-file README.md $directory; done
   #- repo: https://github.com/terraform-docs/terraform-docs
     #rev: "v0.16.0"
     #hooks:
