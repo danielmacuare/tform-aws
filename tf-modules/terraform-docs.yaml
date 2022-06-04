@@ -7,7 +7,7 @@ footer-from: ""
 
 recursive:
   enabled: true
-  path: modules2/
+  path: tf-modules/
 
 sections:
   hide: []
