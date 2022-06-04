@@ -6,8 +6,8 @@ repos:
       - id: terraform_fmt
         args:
           - --args=-recursive
-  - repo: https://github.com/terraform-docs/terraform-docs
-    rev: "v0.16.0"
-    hooks:
-      - id: terraform-docs-go
-        args: ["-c", "tf-modules/terraform-docs.yaml", "."]
+  #- repo: https://github.com/terraform-docs/terraform-docs
+    #rev: "v0.16.0"
+    #hooks:
+      #- id: terraform-docs-go
+        #args: ["-c", "tf-modules/terraform-docs.yaml", "."]
