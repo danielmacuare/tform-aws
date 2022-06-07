@@ -1,7 +1,3 @@
-# create-tgw
-
-This module will create Transit Gateway.
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
